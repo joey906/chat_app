@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesom/5.15.2/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/3d715e0df8.js" crossorigin="anonymous"></script>
+    
     <title>Chat app</title>
 </head>
 <body>
@@ -33,7 +34,8 @@
                     </div>
                     <div class="field">
                         <label for="">Password</label>
-                        <input type="text" placeholder="Enter new password">
+                        <input type="password" placeholder="Enter new password">
+                        <i class="fas fa-eye"></i>
                     </div>
                     <div class="field">
                         <label for="">Select Image</label>
@@ -45,6 +47,9 @@
             </form>
             <div class="link">Already signed up?<a href="./login.php"> Login now</a></div>
         </section>
+        
     </div>
+    <script src="./javascript/pass-show-hide.js"></script>
+    
 </body>
 </html>
